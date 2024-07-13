@@ -9,6 +9,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ColorModeScript />
     <ChakraProvider>
       <ColorModeSwitcher />
+      
       <App />
     </ChakraProvider>
   </React.StrictMode>
