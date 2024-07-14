@@ -31,6 +31,7 @@ const Header = () => {
         w={"10"}
         h={"10"}
         onClick={onOpen}
+        zIndex={"overlay"}
       >
         <BiMenuAltLeft size={"20"} />
       </Button>
