@@ -45,24 +45,35 @@ const Home = () => {
             p={["4", "16"]}
             textAlign={"center"}
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-            dolore porro optio quod at officiis sequi consequatur velit nulla
-            hic explicabo architecto ipsa laborum eveniet recusandae, voluptate
-            nobis consequuntur? Eveniet fugiat ipsam commodi iusto corporis
-            velit magnam! Voluptatum nemo quae culpa vel deleniti reiciendis id
-            libero cupiditate ad accusantium cumque rem eveniet eum ipsum
-            distinctio voluptatibus dolor a, veritatis hic laboriosam cum
-            necessitatibus dignissimos sunt quis. Dolorem dicta quos unde quia.
-            Inventore soluta suscipit doloremque explicabo. Incidunt quidem fuga
-            inventore alias dolorum rerum provident corrupti maiores dolor
-            beatae odit libero minima magni repudiandae soluta ipsum,
-            voluptatum, temporibus, ut itaque nemo amet fugiat adipisci labore.
-            Rem iure mollitia accusamus. Ad illum quia, quae molestias
-            praesentium a incidunt quo deserunt aliquam hic, eveniet sit
-            quibusdam cumque repellat ut quam amet minus, cum ipsam.
-            Consequuntur aliquid esse sunt ipsa quod tenetur vero vel quibusdam,
-            pariatur doloribus. Architecto temporibus vel hic, nihil magni
-            fugiat?
+            ViDHuB, a cutting-edge video streaming app, offers an extensive
+            array of services that redefine the way audiences consume
+            entertainment. Users gain access to an expansive library
+            encompassing a wide range of movies, TV shows, documentaries, and
+            exclusive original content across diverse genres, ensuring there is
+            something for everyone. High-definition streaming coupled with
+            adaptive bitrate technology guarantees smooth and uninterrupted
+            playback, even when internet speeds fluctuate. Personalized
+            recommendations driven by sophisticated algorithms analyze viewing
+            history and preferences, delivering tailored content that keeps
+            users engaged and coming back for more. In addition to streaming,
+            ViDHuB provides features like offline downloads, allowing users to
+            watch their favorite shows and movies without an internet
+            connection. Multi-device support enables seamless viewing across
+            smartphones, tablets, smart TVs, and computers, while user profiles
+            ensure individual preferences and watch histories are maintained.
+            Live streaming capabilities bring real-time events, concerts, and
+            sports directly to viewers, enhancing the app's versatility. Robust
+            search functionalities make it easy to find specific titles or
+            explore new content, and social media integration allows users to
+            share their favorite moments and recommendations with friends and
+            followers. Moreover, ViDHuB prioritizes security and user control,
+            employing encryption to protect user data and offering parental
+            controls to create a safe viewing environment for families. Regular
+            updates and continuous improvements ensure that the app remains at
+            the forefront of technological advancements, consistently delivering
+            a superior and immersive entertainment experience. Overall, ViDHuB
+            not only provides a gateway to endless entertainment but also
+            enriches the way users interact with and enjoy digital media.
           </Text>
         </Stack>
       </Container>
