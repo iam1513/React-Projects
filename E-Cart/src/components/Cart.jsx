@@ -32,17 +32,23 @@ const Cart = () => {
 const CartItem = ({ imgSrc, name, price, qty, id }) => (
   <div className="cartItem">
     <img src={imgSrc} alt="Item" />
-    <article>
+    <div className="first">
       <h3>{name}</h3>
-      <p>{qty}</p>
-      <p>${price}</p>
-    </article>
+      <div>
+        <p>${price}</p>
+      </div>
+    </div>
     <div>
       <button>-</button>
       <p>{qty}</p>
       <button>+</button>
     </div>
-    <AiFillDelete onClick={() => deleteHandler(id)} />
+    <AiFillDelete
+      // style={{
+      //   color: "black",
+      // }}
+      onClick={() => deleteHandler(id)}
+    />
   </div>
 );
 

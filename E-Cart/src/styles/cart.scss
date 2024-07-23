@@ -8,7 +8,9 @@
   > main {
     padding: 2rem;
     overflow-y: auto;
-
+    &::-webkit-scrollbar {
+      display: none;
+    }
     > h1 {
       color: $tertiary;
       font: 100 2rem "Roboto";
@@ -56,5 +58,80 @@
 
   > div {
     display: flex;
+    align-items: center;
+    height: 100%;
+    button {
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-color: $primary;
+      color: $tertiary;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: $primarydark;
+      }
+    }
+
+    p {
+      color: black;
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+    }
+    h3 {
+      color: black;
+    }
+  }
+
+  > svg {
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: auto;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.8rem;
+  align-items: center;
+  height: 100%;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+  button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: $primary;
+    color: $tertiary;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: $primarydark;
+    }
+  }
+
+  p {
+    color: black;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+  }
+  h3 {
+    color: black;
   }
 }
