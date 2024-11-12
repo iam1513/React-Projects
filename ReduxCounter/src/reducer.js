@@ -28,7 +28,7 @@ export const counterSlice = createSlice(
             },
             // Reducer to decrement the state by a specific value, provided in action.payload
             decrementBySomeValue : (state,action)=>{
-                return state- action.payload
+                return state - action.payload
             }
         }
     }

@@ -10,7 +10,6 @@ function App() {
 
   const inc = () => {
     dispatch(increment())
-    console.log(value)
   }
 
   const dec = () => {
